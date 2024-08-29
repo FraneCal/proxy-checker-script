@@ -63,5 +63,3 @@ jobs:
           git add valid_proxies.txt
           git commit -m "Update valid proxies file"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
