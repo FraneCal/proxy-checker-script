@@ -23,16 +23,21 @@ After validation, the script cleans the `valid_proxies.txt` file by removing any
 
 **Usage**
 **Clone the Repository:**
+
 `git clone https://github.com/FraneCal/free-proxy-servers.git`
+
 `cd free-proxy-servers`
 
 **Install Dependencies:**
+
 `pip install requests`
 
 **Run the Script:**
+
 `python main.py`
 
 **Check the Output:**
+
 The valid proxies will be saved in `valid_proxies.txt` in the root directory of the project.
 
 Customization
