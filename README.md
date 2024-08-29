@@ -45,7 +45,10 @@ This repository contains a Python script that automates the process of downloadi
 
 ## Customization
 
-Proxy List Source: You can change the source of the proxy list by modifying the url variable in the script.
-Number of Threads: Adjust the number of threads used for proxy checking by modifying the range in the thread creation loop.
-Contributing
+   -  **Proxy List Source**: You can change the source of the proxy list by modifying the url variable in the script.
+     
+   -  **Number of Threads**: Adjust the number of threads used for proxy checking by modifying the range in the thread creation loop.
+     
+## Contributing
+
 Contributions are welcome! If you have ideas for improvements or encounter any issues, feel free to open an issue or submit a pull request.
