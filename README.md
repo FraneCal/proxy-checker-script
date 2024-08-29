@@ -25,25 +25,26 @@ This repository contains a Python script that automates the process of downloadi
 
 ## Usage
 
-**Clone the Repository:**
+1. **Clone the Repository:**
 
-`git clone https://github.com/FraneCal/free-proxy-servers.git`
+   -  `git clone https://github.com/FraneCal/free-proxy-servers.git`
 
-`cd free-proxy-servers`
+   -  `cd free-proxy-servers`
 
-**Install Dependencies:**
+2. **Install Dependencies:**
 
-`pip install requests`
+   -  `pip install requests`
 
-**Run the Script:**
+3. **Run the Script:**
 
-`python main.py`
+   -  `python main.py`
 
-**Check the Output:**
+4. **Check the Output:**
 
-The valid proxies will be saved in `valid_proxies.txt` in the root directory of the project.
+   -  The valid proxies will be saved in `valid_proxies.txt` in the root directory of the project.
 
-Customization
+## Customization
+
 Proxy List Source: You can change the source of the proxy list by modifying the url variable in the script.
 Number of Threads: Adjust the number of threads used for proxy checking by modifying the range in the thread creation loop.
 Contributing
