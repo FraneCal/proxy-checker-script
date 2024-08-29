@@ -1,3 +1,35 @@
+# name: Run Proxy Checker
+
+# on:
+#   schedule:
+#     - cron: '*/10 * * * *' # Runs every 10 minutes
+
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v4
+
+#       - name: Set up Python
+#         uses: actions/setup-python@v4
+#         with:
+#           python-version: '3.9'
+
+#       - name: Install dependencies
+#         run: |
+#           pip install --upgrade pip
+#           pip install -r requirements.txt
+
+#       - name: Run proxy checker script
+#         run: python main.py
+
+#       - name: Upload valid proxies as an artifact
+#         uses: actions/upload-artifact@v4
+#         with:
+#           name: valid-proxies
+#           path: valid_proxies.txt
+
 name: Run Proxy Checker
 
 on:
@@ -24,8 +56,12 @@ jobs:
       - name: Run proxy checker script
         run: python main.py
 
-      - name: Upload valid proxies as an artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: valid-proxies
-          path: valid_proxies.txt
+      - name: Commit and push updated proxies
+        run: |
+          git config user.name "github-actions"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add valid_proxies.txt
+          git commit -m "Update valid proxies file"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
