@@ -51,4 +51,4 @@ This repository contains a Python script that automates the process of downloadi
      
 ## Contributing
 
-Contributions are welcome! If you have ideas for improvements or encounter any issues, feel free to open an issue or submit a pull request.
+Contributions are welcome! If you have ideas for improvements or encounter any issues, feel free to contribute.
