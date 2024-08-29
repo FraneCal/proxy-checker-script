@@ -29,7 +29,7 @@ This repository contains a Python script that automates the process of downloadi
 
    -  `git clone https://github.com/FraneCal/proxy-checker-script.git`
 
-   -  `cd free-proxy-servers`
+   -  `cd proxy-checker-script`
 
 2. **Install Dependencies:**
 
