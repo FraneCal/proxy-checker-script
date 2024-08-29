@@ -27,7 +27,7 @@ This repository contains a Python script that automates the process of downloadi
 
 1. **Clone the Repository:**
 
-   -  `git clone https://github.com/FraneCal/free-proxy-servers.git`
+   -  `git clone https://github.com/FraneCal/proxy-checker-script.git`
 
    -  `cd free-proxy-servers`
 
